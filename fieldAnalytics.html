@@ -9,6 +9,17 @@
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 
+		<style>
+			body {
+				padding-top:50px;
+			}
+			a[name] {
+				padding-top: 50px;
+				margin-top: -50px;
+				vertical-align: top;
+			}
+		</style>
+
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -19,39 +30,112 @@
 
 	<body>
 
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="images/faLogoBanner.png" class="img-responsive" width="112" height="25"></a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#DataWarehouse">Data Warehouse</a></li>
+						<li><a href="#BusinessIntelligence">Business Intelligence</a></li>
+						<li><a href="#Analytics">Analytics</a></li>
+						<li><a href="#WhyFieldAnalytics">Why Field Analytics?</a></li>
+						<!--<li><a href="#Contact">Contact</a></li>-->
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+
 		<div class="jumbotron">
 			<div class="container">
-				<p>Field Analytics helps businesses leverage the value hidden in their data</p>
+				<div class="col-sm-8">
+					<p></p>
+					<p></p>
+					<h2>Field Analytics helps businesses uncover and leverage the value hidden in their data</h2>
+				</div>
+				<div class="col-sm-4">
+					<p align="center"><img src="images/magnifyingGlass.jpg" width="150" height="150"></p>
+				</div>
 			</div>
 		</div>
 
 		<div class="container">
 			<div class="row">
+				<a name="DataWarehouse"></a>
 				<div class="col-md-4">
-					<h2>Date Warehouse</h2>
-					<p>Clarity in the Dynamics of your Business</p>
+					<!-- <img src="images/dataWarehouse.png" width="50" height="50"> -->
+					<h3>Data Warehouse</h3>
+					<p><i>Clarity in the Dynamics of your Business</i></p>
+					<p></p>
+					<p>Field Analytics designs, implements and enables clients to utilize data warehouse technology.  With deep experience in all the major database platforms,
+					our consultants are able to deliver quickly.</p>
 				</div>
+				<a name="BusinessIntelligence"></a>
 				<div class="col-md-4">
-					<h2>Business Intelligence</h2>
-					<p>Informed Decision Making</p>
+					<!-- <img src="images/businessIntelligence.png" width="50" height="50"> -->
+					<h3>Business Intelligence</h3>
+					<p><i>Informed Decision Making</i></p>
+					<p></p>
+					<p>Field Analytics builds management dashboards and event-driven reporting to put information in the hands of operational decision makers.</p>
 				</div>
+				<a name="Analytics"></a>
 				<div class="col-md-4">
-					<h2>Analytics</h2>
-					<p>Actionable Insights for Competitive Advantage</p>
+					<!-- <img src="images/analytics.png" width="50" height="50"> -->
+					<h3>Analytics</h3>
+					<p><i>Actionable Insights for Competitive Advantage</i></p>
+					<p></p>
+					<p>The volume of data available is exploding.  Field Analytics uses the latest data science techniques to find actionable insights for our clients to maximize performance.</p>
+				</div>
+			</div>
+
+			<hr>
+
+			<a name="WhyFieldAnalytics"></a>
+			<div class="row">
+				<div class="col-sm-2">
+					<p><b>Why utilize Field Analytics?</b></p>
+				</div>
+				<div class="col-sm-10">
+					<ul>
+						<li>A holistic, systematic approach which integrates:
+							<ul>
+								<li>astute business, financial and system analysis</li>
+								<li>leading-edge data science techniques</li>
+								<li>effective project management</li>
+								<li>hands-on technical experience with all major data platforms</li>
+								<li>experience with several leading data science toolsets</li>
+							</ul>
+						</li>
+						<li>A track record of establishing data warehouses in just a few weeks</li>
+						<li>A 20-year reputation for successful engagements 
+					</ul>
 				</div>
 			</div>
 
 			<hr>
 
 			<div class="row">
-				<div class="col-md-2">
-					<img src="images/cubeFA.png" class="img-responsive" width="85" height="87">
+				<div class="col-sm-2">
+					<img src="images/cubeFA.png" width="85" height="87">
 				</div>
-				<div class="col-md-10">
+				<div class="col-sm-6">
 					<p><b>Field Analytics, LLC</b></p>
 					<p>
-						An Austin, Texas based consultantcy providing data warehouse, business intelligence and data analytics solutions for mid-sized businesses.
+						An Austin, Texas based consultancy providing data warehouse, business intelligence and data analytics solutions for mid-sized businesses.
 					</p>
+				</div>
+				<div class="col-sm-4">
+					<p>Email: <a href="mailto:fieldanalytics@outlook.com">fieldanalytics@outlook.com</a></p>
 				</div>
 			</div>
 
