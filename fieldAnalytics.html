@@ -2,6 +2,9 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="description" content="Fiend Analytics, LLC is an Austin, Texas based consultancy providing analytics &amp; reporting,
+		data access &amp; integration and backend development solutions for mid-sized businesses.
+		Field Analytics uses technologies including: D3, Leaflet, APIs, Web Services, JSON, SOAP, XML, Amazon Web Services, API Gateway, Lambda, RDS, and RESTFul APIs.">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Field Analytics, LLC</title>
@@ -92,44 +95,52 @@
 			</div>
 		</div>
 
+		<div class="container" style="background-color:rgb(55,106,110)">
+			<div class="row" style="color:white">
+				<p>&nbsp;</p>
+			</div>
+		</div>
+
 		<div class="container">
 			<div class="row">
 				<a name="Analytics"></a>
 				<div class="col-md-4">
-					<h3>Analytics &amp; Reporting</h3>
-					<p><i>Actionable Insights for Competitive Advantage</i></p>
 					<p></p>
-					<p>Field Analytics uses the latest data science, data visualization &amp; database techniques 
+					<p style="color:rgb(55,106,110); font-size:200%">Analytics &amp; Reporting</p>
+					<p><b><i>Actionable Insights for Competitive Advantage</i></b></p>
+					<p></p>
+					<p><i>Field Analytics</i> uses the latest data science, data visualization &amp; database techniques 
 					to find actionable insights for our clients.</p>
 					<p></p>
 					<p>Areas of focus include:</p>
 					<ul>
 						<li>operational reporting</li>
 						<li>sales analysis</li>
-						<li>labor productivity</li>
+						<li>labor productivity / utilization</li>
 						<li>inventory management</li>
 					</ul>
 					<p></p>
-					<p>Technologies used:</p>
+					<p>Technologies used include:</p>
 					<ul>
 						<li>D3 (interactive visualizations)</li>
 						<li>Leaflet (mapping)</li>
-						<li>Matplotlib / NumPy (charting &amp; numerical analysis)
+						<li>Matplotlib / NumPy (charting, regression &amp; numerical analysis)
 						<li>Jasper Reports, Microsoft Reporting Services (SQL reporting and dashboards)</li>
 						<li>SQL, stored procedures, views (data cleaning &amp; manipulation)</li>
 					</ul>
 				</div>
 				<a name="DataIntegration"></a>
 				<div class="col-md-4">
-					<h3>Data Access &amp; Integration</h3>
-					<p><i>The foundation for accurate & reliable business information</i></p>
 					<p></p>
-					<p>Field Analytics leverages API's, open source software and cloud technology to 
+					<p style="color:rgb(55,106,110); font-size:200%">Data Access &amp; Integration</p>
+					<p><b><i>The foundation for accurate & reliable business information</i></b></p>
+					<p></p>
+					<p><i>Field Analytics</i> leverages API's, open source software and cloud technology to 
 					move data between isolated systems.  This keeps information in sync and creates 
 					one version of the truth, enabling 
 					accurate &amp; reliable real-time views of business activity and metrics.</p>
 					<p></p>
-					<p>Technologies used:</p>
+					<p>Technologies used include:</p>
 					<ul>
 						<li>APIs / Web Services</li>
 						<li>JSON</li>
@@ -140,17 +151,38 @@
 				</div>
 				<a name="BackendDevelopment"></a>
 				<div class="col-md-4">
-					<h3>Backend Development</h3>
-					<p><i>Computing power <u>without</u> buying computer hardware</i></p>
 					<p></p>
-					<p>Cloud services allow organizations to quickly deploy large, scalable databases with RESTful APIs.  Let Field Analytics build and manage the backend, while your developers focus on building apps.</p>
+					<p style="color:rgb(55,106,110); font-size:200%">Backend Development</p>
+					<p><b><i>Computing power <u>without</u> buying computer hardware</i></b></p>
 					<p></p>
-					<p>Technologies used:</p>
+					<p><i>Field Analytics</i> empowers organizations to quickly deploy large, scalable databases with RESTful APIs.
+					Let <i>Field Analytics</i> build and manage the backend, so that your development team can focus on building apps.
+					Or let <i>Field Analytics</i> provide the knowledge for your team to develop this capability.  The choice is yours.</p>
+					<p></p>
+					<p>Technologies used include:</p>
 					<ul>
-						<li>Amazon Web Services, including: API Gateway, Lambda, RDS, Redshift, EC2, S3, Boto</li>
+						<li>Amazon Web Services, including:
+							<ul>
+								<li>API Gateway</li>
+								<li>Lambda</li>
+								<li>RDS</li>
+								<li>Redshift</li>
+								<li>Machine Learning</li>
+								<li>EC2</li>
+								<li>S3</li>
+								<li>Boto</li>
+							</ul>
+						</li>
 						<li>RESTFul APIs</li>
-						<li>Star Schema Data Warehouses</li>
-						<li>Database platforms, including Oracle, Microsoft SQL Server, MySQL, Postgres SQL</li>
+						<li>Star Schema Data Warehouse Design</li>
+						<li>Database platforms, including
+							<ul>
+								<li>Oracle</li>
+								<li>Microsoft SQL Server</li>
+								<li>MySQL</li>
+								<li>PostgreSQL</li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -171,7 +203,7 @@
 								<li>effective project management</li>
 								<li>hands-on technical experience with all major database platforms</li>
 								<li>experience with several leading data visualization toolsets</li>
-								<li>API design expertise</li>
+								<li>data modeling &amp; API design expertise</li>
 							</ul>
 						</li>
 						<li>A 20-year reputation for successful engagements</li>
@@ -215,12 +247,12 @@
 			function loadChart() {
 				//declare variables
 				var inputDataList = [];
-				var dataPointCount = Math.random() * 50 + 10;
+				var dataPointCount = Math.random() * 30 + 7;
 				var x = 300;
-				var y = 1000;
+				var y = 15000;
 				for (var i = 0; i < dataPointCount; i++) {
 					x += Math.random() * Math.random() * 20 + 3;
-					y += Math.random() * Math.random() * 35 - 5;
+					y += Math.random() * Math.random() * 1250 - 150;
 					inputDataList.push([x, y]);
 				}
 
