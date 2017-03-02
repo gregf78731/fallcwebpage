@@ -189,15 +189,7 @@ section.success {
   background: #18BC9C;
   color: white;
 }
-section.DataEngineering {
-  background: white;
-  color: grey;
-}
-section.MachineLearning {
-  background: #18BC9C;
-  color: white;
-}
-section.Reporting {
+section.success-light {
   background: white;
   color: grey;
 }
