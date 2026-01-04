@@ -1,152 +1,314 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-			crossorigin="anonymous"
-		>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-			rel="stylesheet"
-		>
-		<style>
-			#logo-row {
-				background-color: #376a6e;
-			}
-			#background-row {
-				background-color: white;
-			}
-			#services-row {
-				background-color: #1c474a;
-			}
-			.service-box {
-				background-color: #519ea4;
-			}
-			#technology-row {
-				background-color: #c96418;
-			}
-			.technology-box {
-				background-color: #f47922;
-			}
-			#footer-row {
-				background-color: #376a6e;
-			}
-			#logo {
-				max-width: 170px; /* image width: 426px */
-				height: 154px; /* image height: 435px */
-			}
-		</style>
-		<title>Field Analytics, LLC</title>
-	</head>
-	<body>
-		<div class="container-fluid">
-			<div class="row pt-1" id="logo-row">
-				<img class="mx-auto d-block" src="img/cubeFA.png" id="logo">
-				<h1 class="pt-3 display-2 text-white text-center">FIELD ANALYTICS</h2>
-				<h3 class="pt-4 pb-2 text-white text-center">Data Engineering & Analytics using Python and Azure</h3>
-			</div>
-			<div class="row pt-1" id="background-row">
-				<h4 class="text-center">Value Proposition</h2>
-					<p class="m-4"><i>
-						Field Analytics provides innovative consulting and
-						software services for logistics, retail, and financial
-						companies.  Using our expertise in Python, Azure, and
-						software development we solve & automate data challenges,
-						which allows our clients to gain operational visibility
-						and efficiency to drive revenue growth.	
-					</i></p>
-			</div>
-			<div class="row pt-1 text-white" id="services-row">
-				<h4 class="text-center">Primary Services</h2>
-				<div class="col-md-4 border my-2 rounded-3 service-box">
-					<p class="">Data Engineering / Application Integration</p>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Field Analytics, LLC</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Field Analytics</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#Services">Services</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#Verticals">Verticals</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#WhyUseFieldAnalytics">Why Use Field Analytics</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#Technologies">Technologies</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/cubeFA_small.png" alt="Field Analytics">
+                    <div class="intro-text">
+                        <span class="name">Field Analytics</span>
+                        <hr class="star-light">
+                        <span class="skills">Turning Spatial Data Into Strategic Assets</span>
+                        <hr class="star-light">
+						<span class="skills"><b>America 250 Promotion</b> - <i>Get 2 hours of GIS Data Engineering Consulting for only $250<i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="success-light" id="Services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Services</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>GIS &amp; Data Engineering Services:</p>
 					<ul>
-						<li>API Automation</li>
-						<li>Data Pipelines</li>
-						<li>Database Automation</li>
-						<li>Data Warehousing</li>
+						<li><font size=4>GIS / Spatial Analytics &amp; Modeling</font></li>
+						<li><font size=4>Data Engineering</font></li>
+							<ul>
+								<li><font size=3>APIs</font></li>
+								<li><font size=4>Pipelines</font></li>
+							</ul>
 					</ul>
-				</div>
-				<div class="col-md-4 border my-2 rounded-3 service-box">
-					<p class="">Data Analysis</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Marimo Services:</p>
 					<ul>
-						<li>Large / Intricate Data Sources</li>
-						<li>Complex SQL & Stored Procedues</li>
-						<li>SQL Reporting</li>
-						<li>Choropleth Mapping</li>
-					</ul>		
-				</div>
-				<div class="col-md-4 border my-2 rounded-3 service-box">
-					<p class="">System Administration</p>
-					<ul>
-						<li>Server Setup/Hardening</li>
-						<li>Automated Backups</li>
-						<li>Disaster Recovery Planning</li>
-						<li>Application Support</li>
-						<li>SSL Certificate Installation</li>
+						<li><font size=4><a href="https://marimo.io/">Marimo Notebook</a> Training &amp; Consulting</font></li>
+						<li><font size=4><a href="https://marimo.io/blog/announcing-molab">Molab</a> Consulting</font></li>
 					</ul>
-				</div>
-			</div>
-			<div class="row pt-1 text-white" id="technology-row">
-				<h4 class="text-center">Core Technologies</h2>
-				<div class="col-md-3 border my-2 rounded-3 technology-box">
-					<p class="">Python</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Application Development Services:</p>
 					<ul>
-						<li>Pandas, Geopandas & Jupyter</li>
-						<li>scikit-learn</li>
-						<li>asyncio</li>
-						<li>flask / starlette / FastAPI</li>
+						<li><font size=4>Custom Spatial Application Development</font></li>
+						<li><font size=4>Database Application Development</font></li>
+						<li><font size=4>Machine Learning</font></li>
 					</ul>
-				</div>
-				<div class="col-md-3 border my-2 rounded-3 technology-box">
-					<p class="">Azure</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="success-light" id="Verticals">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Verticals</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
 					<ul>
-						<li>Linux VMs</li>
-						<li>SQL Server</li>
-						<li>Synapse</li>
-						<li>Databricks</li>
+						<li><font size=4>Logistics</font></li>
+						<li><font size=4>Political / Election Administration</font></li>
+						<li><font size=4>Retail</font></li>
+						<li><font size=4>Financial Services (including Real Estate)</font></li>
 					</ul>
-				</div>
-				<div class="col-md-3 border my-2 rounded-3 technology-box">
-					<p class="">Databases</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhyUseFieldAnalytics Section -->
+    <section class="success" id="WhyUseFieldAnalytics">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Why Use Field Analytics</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
 					<ul>
-						<li>SQL Server</li>
-						<li>Oracle</li>
-						<li>Postgres</li>
-						<li>MySql</li>
-						<li>SQLite</li>
+						<li><font size=4>Deep experience in both tabular and spatial data</font></li>
+						<li><font size=4>Scalable, maintainable, adaptable software engineering techniques</font></li>
+						<li><font size=4>Clear communication and documentation for technical and non-technical audiences</font></li>
+						<li><font size=4>A focus on correctness, transparency and auditability</font></li>
+						<li><font size=4>Experience with large challenging datasets and high volume interfaces</font></li>
 					</ul>
-				</div>
-				<div class="col-md-3 border my-2 rounded-3 technology-box">
-					<p class="">Linux</p>
-						<ul>
-							<li>Red Hat / CentOS</li>
-							<li>Docker</li>
-						</ul>
-				</div>
-			</div>
-			<div class="row pt-1 text-white text-center test-reset" id="footer-row">
-				<div class="col-4 p-3">
-					<a href="https://twitter.com/field_analytics" class="link-info"><i class="bi bi-twitter fs-2"></i></a>
-				</div>
-				<div class="col-4 p-3">
-					<a href="https://www.linkedin.com/company/field-analytics-llc" class="link-info"><i class="bi bi-linkedin fs-2"></i></a>
-				</div>
-				<div class="col-4 p-3">
-					<a href="https://www.facebook.com/FieldAnalytics" class="link-info"><i class="bi bi-facebook fs-2"></i></a>
-				</div>
-				<h4 class="pt-2"><i class="bi bi-envelope fs-2"> </i>email: <a href="gregf@fieldanalyticsllc.com" class="link-info">gregf@fieldanalyticsllc.com</a></h4>
-			</div>
-		</div>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-			crossorigin="anonymous"
-		>
-		</script>
-	</body>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="success-light" id="Technologies">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Technologies</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Python:</p>
+					<ul>
+						<li><font size=4>Pandas / Numpy</font></li>
+						<li><font size=4>GeoPandas / Shapely</font></li>
+						<li><font size=4>Folium / Leaflet</font></li>
+						<li><font size=4>Marimo / Molab</font></li>
+						<li><font size=4>Altair / Matplotlib</font></li>
+						<li><font size=4>FastAPI / Starlette Asyncio</font></li>
+					</ul>
+                </div>
+                <div class="col-md-4">
+                    <p>Platforms:</p>
+					<ul>
+						<li><font size=4>Azure</font></li>
+						<li><font size=4>Databricks</font></li>
+						<li><font size=4>Linux</font></li>
+					</ul>
+                </div>
+                <div class="col-md-4">
+                    <p>Databases:</p>
+					<ul>
+						<li><font size=4>Oracle</font></li>
+						<li><font size=4>Microsoft/Azure SQL Server</font></li>
+						<li><font size=4>Postgres</font></li>
+					</ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success-light" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Field Analytics</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>A Texas based consultancy providing GIS, data engineering, application development and analytics to mid-sized businesses</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Utilizes a holistic, systematic approach which integrates:</p>
+					<ul>
+						<li><font size=4>astute business, financial and system analysis</font></li>
+						<li><font size=4>leading-edge data engineering and software engineering techniques</font></li>
+						<li><font size=4>effective project management</font></li>
+						<li><font size=4>hands-on technical experience</font></li>
+					</ul>
+                </div>
+                <div class="col-lg-4">
+                    <p>A 20+ year reputation for successful engagements</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Georgetown, Texas</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.linkedin.com/company/field-analytics-llc" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/field_analytics" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/FieldAnalytics" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Contact Us</h3>
+						<p>Email Greg at <a href="mailto:gregf@fieldanalyticsllc.com">gregf@fieldanalyticsllc.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Field Analytics, LLC 2026
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+</body>
+
 </html>
